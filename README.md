@@ -2,7 +2,7 @@
 A simple Python program that let's you choose a content image that will be reproduced in the style of another image.
 
 ## An Example:
-![Content Image](https://github.com/NathanGr01/Neural_Style_Transfer-Artgeneration/blob/main/images/content_image.jpg | width=400)
+<img src="https://github.com/NathanGr01/Neural_Style_Transfer-Artgeneration/blob/main/images/content_image.jpg" width="400" height="400" />
 ### +
 ![Style Image](https://github.com/NathanGr01/Neural_Style_Transfer-Artgeneration/blob/main/images/style_image.jpg | width=400)
 ### =
