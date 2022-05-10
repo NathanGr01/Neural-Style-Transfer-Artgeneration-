@@ -32,7 +32,7 @@ def load_images():
 def load_pretrained_model():
     vgg = tf.keras.applications.VGG19(include_top=False,
                                     input_shape=(img_size, img_size, 3),
-                                    weights='/home/nathangruber/Studium/Master/Coursera/Neural Networks and Deep Learning/Übungsprojekte/NST/pretrained-vgg19-weights.h5')
+                                    weights='pretrained-vgg19-weights.h5')
     vgg.trainable = False
     return vgg
 
